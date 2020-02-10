@@ -10,6 +10,9 @@ html {
 .page {
     width: 1400px;
     margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -56,7 +59,7 @@ html {
     display: inline-block;
     height: 5px;
     width: 8px;
-    background-image: url(img/Arrow.png);
+    background-image: url(img/arrow.png);
     margin-left: 11px;
 }
 
@@ -92,4 +95,111 @@ html {
 .top-section {
     background-color: #F3C6BD;
     padding-top: 39px;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-company {
+    margin-top: 44px;
+}
+
+.footer__description {
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+    margin-top: 26px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.footer-navigation {
+    width: 1140px;
+    margin: 0 auto;
+    height: 338px;
+    display: flex;
+}
+
+.downloads {
+    margin-top: 25px;
+}
+
+.downloads__item {
+    margin-right: 10px;
+}
+
+.additional-navigation {
+    margin-top: 60px;
+    margin-left: auto;
+    display: flex;
+}
+
+.additional-navigation__column {
+    margin-right: 29px;
+}
+
+.nav-links {
+    width: 265px;
+}
+
+.nav-links__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2B292D;
+    margin: 0;
+}
+
+.nav-links__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2B292D;
+    margin: 0;
+}
+
+.nav-links__list {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(43, 41, 45, 0.6);
+    padding: 0;
+    margin: 0;
+    margin-top: 18px;
+}
+
+.footer__line {
+    border-top: 1px solid #2B292D;
+    width: 100%;
+    opacity: 0.1;
+    margin: 0;
+}
+
+.footer-links {
+    height: 50px;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.terms {
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.terms__items {
+    text-decoration: none;
+    color: rgba(43, 41, 45, 0.6);
+    margin-right: 22px;
+}
+
+.social-links {
+    margin-left: auto;
+}
+
+.social-links__item {
+    margin-left: 20px;
 }
