@@ -140,7 +140,7 @@
     margin-bottom: 23px;
     @include for-large-up {
         margin-left: auto;
-        margin-bottom: 0;
+        // margin-bottom: 0;
     }
     &__item {
         margin-left: 20px;

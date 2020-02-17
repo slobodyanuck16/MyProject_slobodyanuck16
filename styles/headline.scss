@@ -81,8 +81,9 @@
         }
     }
     &__action-btn {
+        width: 100%;
         @include for-large-up {
-            width: 100%;
+            width: 158px;
         }
     }
 }

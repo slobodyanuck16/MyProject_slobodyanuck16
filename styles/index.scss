@@ -8,6 +8,13 @@
 @import 'header.scss';
 @import 'headline.scss';
 @import 'tips.scss';
+@import 'hiring.scss';
+@import 'feedback.scss';
+@import 'audience.scss';
+@import 'communication.scss';
+@import 'inbox.scss';
+@import 'order.scss';
+@import 'customers-two.scss';
 
 * {
     box-sizing: border-box;
@@ -21,12 +28,8 @@ html {
 
 .page {
     width: 100%;
-    overflow-x: hidden;
-}
-
-@media screen and (min-width:400px) {
-    .page {
-        width: 1400px;
+    @include for-large-up {
+        max-width: 1400px;
         margin: auto;
         min-height: 100vh;
         display: flex;
