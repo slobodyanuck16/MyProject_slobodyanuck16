@@ -932,10 +932,16 @@
 }
 .audience__title {
   margin: 0;
+  margin-bottom: 17px;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
   text-align: center;
+}
+@media screen and (min-width: 1400px) {
+  .audience__title {
+    margin: 0;
+  }
 }
 .audience__subtitle {
   margin: 0;
